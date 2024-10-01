@@ -1,0 +1,1515 @@
+body{
+    margin:0;
+}
+/* VARIABLES */
+:root{
+    --buttonback:#EB1700;
+
+}
+/* RESET */
+li{
+    list-style-type:none;
+}
+/* MOBILE STYLES */
+.top-ad{
+    display:flex;
+    padding:8px;
+    padding-bottom:0;
+}
+.top-ad svg{
+    border:1px solid rgba(128, 128, 128, 0.147);
+    border-radius:14px;
+    margin:0px 10px 0px 0px;
+}
+.top-ad img{
+    width:12px;
+}
+.top-ad p{
+    margin:0;   
+}
+.top-ad h6{
+    margin:0px;
+    font-weight: bold;
+}
+.top-ad button{
+    padding:2px 12px 6px 12px;
+    border: 0px;
+    border-radius: 20px; 
+    background:var(--buttonback);
+    color: white;
+    font-size:16px;
+    font-family: 'medium';
+}
+button{
+    cursor:pointer;
+}
+.welcome-text h2 img{
+    width:40%;
+    padding: 10px;
+}
+.welcome-text p{
+    color:#FFFF;
+    font-size:22px;
+}
+.welcome-text input{
+    border:0px solid;
+    text-align: center;
+    font-size:15px;
+    font-weight: bold;
+    /* padding:5px 5px 5px 5px; */
+}
+.welcome-text input:focus{
+    outline: none;
+}
+.welcome-text button{
+    background:#FFFF;
+    border:0px;
+    border-radius:25px;
+    padding:4px 13px 4px 10px;
+    font-size:16px;
+    font-weight:bold;
+}
+.address button{
+    background:#FFFF;
+    border:0px;
+    border-radius:25px;
+    padding:8px 12px 13px 12px;
+}
+.login img{
+    width: 20px;
+}
+.address .arrow1{
+    width:20px;
+    margin-top: 8px;
+}
+.address .search{
+    width:20px;
+}
+.welcome-text .login{
+    display:flex;
+    align-items:center;
+    text-align:justify;
+    margin:10px;
+    margin-top:16px;
+    font-size:14px;
+    font-family:regular;
+}
+.loglogin{
+    display:flex;
+    justify-content:center;
+}
+.welcome-text .login div{
+    display:inline;
+}
+.medialogo img{
+    display: none;
+}
+.welcome{
+    height: 548px;
+    background-image: url(imgs/hero_desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* margin:0; */
+}
+.contentesh{
+    width:52%;
+    line-height:21px;
+}
+.toplogin{
+    text-align: end;
+    padding:10px;
+    padding-top:20px;
+    margin-right:20px;
+}
+.toplogin .login{
+    background:white;
+    color: black;
+    border: 0px;
+    padding: 6px 15px 8px 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family:'medium';
+    font-size:16px;
+}
+.toplogin .openap{
+    padding: 6px 10px 8px 11px;
+    border: 0px;
+    border-radius: 20px; 
+    background:var(--buttonback);
+    color: white;
+    font-size:16px;
+    font-family: 'medium';
+    font-weight: bold;
+}
+.shopgro{
+    height:350px;
+    background:linear-gradient(rgba(0, 8, 0, 0.6),rgba(0, 5, 0, 0.5)),url(imgs/grocery_desktop.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.im1{
+    width: 100%;
+    object-fit: cover;
+    max-height: 180px;
+}
+.slideim1{
+    /* height:342px; */
+    width:100%;
+    object-fit:cover ;
+}
+.shopgro{
+    color: #FFFF;
+}
+.welcome-text{
+    position:relative;
+    top:20%;
+    text-align:center;
+}
+/* ADVERTISEMENT DIV */
+.top-ad h6{
+    font-family: 'medium';
+    font-size: 16px;
+}
+.top-ad{
+    align-items:center;
+    margin-top:10px;
+    padding-bottom:8px;
+}
+.top-ad button{
+    margin-left:48px;
+    margin-bottom: px;
+}
+.top-ad p{
+    font-family:'light';
+    font-size:14px;
+}
+.top-ad .secp{
+    display:flex;
+    gap: 2px;
+    align-items: center;
+}
+.adver1{
+    display:flex;
+    justify-content: flex-start;
+    padding: 24px 21px 11px 0px;
+    margin: 20px 8% 1px 8%;
+    border-radius:12px;
+    background:#F7F7F7;
+}
+.advdiv1{
+    width:30%;
+    text-align:center;
+}
+.adver1 .logoD{
+    width:60px;
+    border:0.1px solid rgb(221, 205, 205);
+    border-radius:16px;
+}
+.adver1 p button{
+    display:flex;
+    align-items: center;
+    font-family:'medium';
+    border:0px;
+    background:var(--buttonback);
+    color:#FEF1EE;
+    border-radius:18px;
+    margin-top:5px;
+    padding:4px 0px 5px 17px;
+}
+.adver1 p{
+    font-size:14px;
+    color:grey;
+    margin-top:0;
+}
+.adver1 h5{
+    font-family:'medium';
+    font-size:18px;
+    margin:0;
+}
+.merchant{
+    display:flex;
+    -webkit-box-pack:center;
+    justify-content:center;
+    flex-direction: column;
+    padding:6%;
+}
+.dasher, .store, .iphone{
+    display:flex;
+    gap:20px;
+}
+.merchant a{
+    display:flex;
+    align-items:center;
+}
+.merchimg .im2{
+    width: 85px;
+}
+.merch1{
+    font-size:32px;
+    margin:0;
+}
+.merchp{
+    font-size:18px;
+    font-family:'regular';
+}
+.merchp a{
+    font-size:14px;
+    line-height:40px;
+}
+/* 2nd ADVERIsEMENT PART */
+.aboutshop p{
+    font-family:'regular';
+    font-size:14px;
+}
+.shop p{
+    font-family:'regular';
+    font-size:14px;
+}
+.helpin p{
+    font-family:'regular';
+    font-size:14px;
+}
+.unlock p{
+    font-family:'regular';
+    font-size:14px;
+}
+.dashpass{
+    margin-top:20px;
+}
+.findres, .dashpass{
+    padding:0px 20px 25px 20px;
+}
+.contentdiv h2{
+    margin-top:20px;
+    font-family:'Bold'
+}
+.findres h6{
+    font-family:'medium';
+    font-weight:600;
+    font-size:18px;
+    margin:0;
+}
+.aboutshop{
+    background:#FEF1EE;
+}
+.shop .shopnow{
+    padding:15px;
+}
+.helpin{
+    height:auto;
+    background:#FEF1EE;
+    text-align: center;
+}
+.unlock{
+    background:#FEF1EE;
+    text-align:center;
+}
+.grow .shopgro{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    position: relative;
+}
+.shopgro div{
+    width:100%;
+}
+.shopgro h3{
+    font-family:'medium';
+}
+.shopgro p{
+    font-size:14px;
+}
+.shopgro h2{
+    padding: 0px 10px 0px 10px;
+}
+.unlock .oppur{
+    margin: 0px 4px 30px 10px;
+    font-size:23px;
+}
+.dasherr h2, .partner h2{
+    margin-top: 20px;
+    font-size:24px;
+}
+.unlock .dasherr, .unlock .partner{
+    text-align:left;
+}
+.dasherr, .partner{
+    padding:20px;
+
+}
+
+/* flex */
+.flex-container{
+    display:flex;
+    overflow:auto;   
+}
+::-webkit-scrollbar{
+    display:none;
+}
+.adv{
+    min-width:305px;
+    margin:10px;
+    text-align: center;
+}
+.adv h2{
+    padding: 13px;
+}
+
+/* navtab */
+.tabs p{
+    line-height: 40px;
+    padding: 20px 0px 0px 20px;
+    text-align: center;
+
+}
+.tabhead{
+    text-align:center;
+    font-size:18px;
+    font-family:'medium';
+    padding:35px 7px 35px 7px;
+}
+.tabheads{
+    display:flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-family:'medium';
+    font-size:16px;
+    margin-bottom:15px;
+}
+.tabheads :nth-child(1){
+    border-bottom: 2px solid black;
+}
+.tabcontents{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom:40px;
+}
+.tabcontents p{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    font-family:'regular';
+}
+.tabcontents p:hover{
+    cursor: pointer;
+    background:rgb(219, 219, 219);
+}
+.searchbar{
+    display:flex;
+    align-items: flex-end;
+    gap:25px;
+}
+/* .addbut .fd{
+    font-family:'light'
+} */
+.addbut{
+    display:flex;
+    justify-content: center;
+}
+.seemore{
+    display:none;
+}
+
+/* FONTS */
+@font-face{
+    font-family:'Gilroy-ExtraBold';
+    src:url('/SITE_building/fonts/Gilroy-ExtraBold.ttf');
+}
+@font-face{
+    font-family:'rotunda';
+    src:url('/SITE_building/fonts/rotunda.otf');
+}
+@font-face{
+    font-family:'trialmed';
+    src:url('/SITE_building/fonts/trialmed.otf');
+}
+@font-face {
+    font-family:regular;
+    src: url(/SITE_building/fonts/TTNorms-Regular.otf);
+}
+@font-face {
+    font-family: medium;
+    src: url(/SITE_building/fonts/TTNorms-Medium.otf);
+}
+@font-face {
+    font-family: light;
+    src: url(/SITE_building/fonts/TTNorms-Light.otf);
+} 
+@font-face {
+    font-family: Bold;
+    src: url(/SITE_building/fonts/TTNorms-Bold.otf);
+}
+p{
+    font-family:'medium';
+}
+h1,h2{
+    font-family:'Bold';
+}
+h2{
+    letter-spacing: 0.1px;
+}
+.aboutshop h3{
+    font-family:'Bold';
+}
+p a{
+    font-family:'medium';
+    text-decoration: none;
+    color: var(--buttonback);
+}
+/* BUTTONS */
+.bu1{
+    background:var(--buttonback);
+    color:#FFFF;
+    border:0px;
+    margin:3px;
+    font-size:13px;
+    font-family:'medium';
+    font-weight:550;
+    padding: 6px 10px;
+    border-radius:20px;
+}
+/* FOOTER */
+footer{
+    background:#191919ff;
+    /* #000000ff */
+    text-align:center;
+    color: #FEF1EE;
+}
+.foot-con{
+    display:flex;
+    flex-direction: column;
+}
+.foot-con div{
+    margin:10px;
+}
+footer h6{
+    margin:40px 30px 20px 30px;
+    font-family:'regular';
+    font-size:16px;
+}
+footer p{
+    color:#C4C4C4;
+    font-size:14px;
+    font-family:'regular';
+    line-height: 20px;
+    cursor:pointer;
+    margin:4px;
+}
+.dropdn{
+    padding:6px 6px 6px 10px;
+    border-radius:40px;
+    background:#FEF1EE;
+    font-size:14px;
+    margin-top:10px;
+}
+.dropdn select{
+    background:#FEF1EE;
+    border:0px;
+}
+.socialapps{
+    display:flex;
+    gap:15px;
+    justify-content: center;
+    padding-top:25px;
+    padding-bottom:5px;
+}
+.socialapps img{
+    width:5.8%;
+}
+.play-app{
+    padding-top:40px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items:center;
+}
+.play-app img{
+    width:40%;
+    background:rgba(77, 76, 76, 0.653);
+    border-radius:10px;
+    cursor:pointer;
+}
+.know-cont{
+    line-height:24px;
+}
+.know-cont .letus{
+    line-height:24px;
+}
+.copyright img{
+    width:65%;
+}
+.copyright{
+    display:flex;
+    padding-top:20px;
+    padding-bottom:30px;
+    /* text-align:center; */
+}
+/* .fff{
+    display:flex;
+    flex-direction:column;
+    gap: 4px;
+} */
+.copydiv1{
+    width:20%;
+}
+.copyright p{
+    display:flex;
+    justify-content: center;
+    gap:15px;
+    font-family:'light';
+    margin:0px;
+    font-size: 13px;
+}
+.copyright p span{
+    color: #C4C4C4;
+    font-family:'light';
+    line-height: 15px;
+}
+.im11{
+    display:none;
+}
+.slideim2{
+    display:none;
+}
+.hideloc{
+    display:none;
+}
+.dropdown{
+    display:flex;
+    justify-content: center ;
+}
+.dropdn{
+    font-family:'regular';
+    display:flex;
+    align-items:center;
+}
+.dropdn img{
+    width:22px
+}
+.tabheads .fontli{
+    font-family:'regular'
+}
+.merchant{
+    padding-right: 11.5%;
+    padding-left: 11.5%;
+    padding-top:77px;
+}
+.ffp br{
+    display:none;
+}    
+input{
+    font-family:'regular';
+    letter-spacing: .5px;
+    margin-left:10px;
+}
+
+@media screen and (min-width:418px){
+    .dasher{
+        display:flex;
+    }
+    .merchant{
+        padding-right: 11.5%;
+        padding-left: 11.5%;
+    }
+}
+@media screen and (min-width:585px){
+    .merchant{
+        padding-right:20%;
+        padding-left: 20%;
+    }
+    .copyright img{
+        width: 35%;
+    }
+    .socialapps img{
+        width:4%;
+    }
+    .copyright p{
+        display:inline;
+    }
+    .app-play img, .play-app img{
+        width:30%;
+    }
+}
+
+@media screen and (min-width:767px){
+    .welcome-text .login{
+        box-shadow: 1px 1px 2px 1px #16151533;
+        gap:2px;
+    }
+    .welcome-text button{
+        padding:7px 14px;
+    }
+    .address button{
+        border-radius:35px;
+    }
+    .fd{
+        display:flex;
+    }
+    .copyright{
+        padding:0;
+    }
+    .socialapps{
+        padding:0;
+    }
+    .dropdn{
+        margin:0;
+    }
+    .socialapps img{
+        width:24px;
+    }
+    .flex-last{
+        display:flex;
+        flex-direction: row-reverse;
+        align-items:center;
+        justify-content: center;
+        gap:10px;
+        padding:10px 10px 30px 10px;
+    }
+    .fff{
+        display:inline;
+        gap: 10px;
+    }
+    .ffp br{
+        display:inline;
+    }
+    .fff span{
+        padding-left:20px;
+    }
+    .tabcontents{
+        grid-template-columns:repeat(3,1fr);
+    }
+    footer .footsthead{
+        text-align: left;
+        padding-top: 30px;
+        padding-left:15px;
+    }
+    .foot-con{
+        flex-direction:row;
+        text-align:left;
+        justify-content:flex-start;
+        gap:10px;
+    }.foot-con p{
+        line-height:25px
+    }
+    .tabhead{
+        font-size:32px;
+        margin-bottom:0;
+        margin-top:0;
+    }
+    .tabheads span{
+        padding-bottom:5px;
+    }
+    .tabcontents p{
+        font-size:16px;
+    }
+    .aboutshop{
+        background:white;
+    }
+    .dashpass{
+        background:#FEF1EE;
+        margin:0;
+    }
+    .unlock{
+        background:white;
+    }
+    .partner{
+        background:#FEF1EE;
+        padding-top:80px;
+    }
+    .searchbar:focus{
+        border:2px solid blue;
+    }
+    .addbut .searchbar{
+        padding: 16px 18px;
+        width: 408px;
+        justify-content: space-between;
+    }
+    .welcome-text{
+        top: 191.5px;    
+    }
+    .welcome{
+        background-image:url(imgs/hero_desktop.png);
+        background-size: cover;
+        width:100%;
+        background-position: center center;    
+        height:650px;
+    }
+    .hideloc{
+        display:inline;
+    }
+    .toplogin{
+        margin:0;
+        padding-top:16px;
+    }
+    .toplogin .login{
+        background:#EB1700;
+        color:white;
+        font-family:'medium';
+        font-size:18px;
+        margin-right:5px;
+    }
+    .toplogin .openap{
+        background:#ffffff;
+        color: rgb(96, 95, 95);
+        font-family:'medium';
+        font-size:18px;  
+        margin-right:17px;   
+    }
+    .search{
+        display:none;
+    }
+    .toplogin span{
+        display:none;
+    }
+    .toplogin .login:after{
+        content:"Sign In";
+    }
+    .toplogin .openap:after{
+        content:"Sign Up";
+    }
+    .welcome-text h2{
+        display:none;
+    }
+    .top-ad{
+        display:none;
+    }
+    .advertisement{
+        display:none;
+    }
+    .medialogo img{
+        display: inline;
+    }
+    .dasherr .im1, .partner .im1{
+        display:none;
+    }
+    .dasherr .im11, .partner .im11{
+        display:inline;
+    }
+    .medialogo{
+        text-align: center;
+        position: absolute;
+        top:6px;
+    }
+    .medialogo img{
+        width:19%;
+    }
+    .welcome-text .leading{
+        font-size: 22px;
+        letter-spacing: 0.3px;
+        margin-top: 10px;
+        line-height: 27px;
+        margin-bottom: 25px;
+    }
+    .merchant{
+        padding-top: 60px;
+        padding-left: 21%;
+        padding-right: 23%;
+        padding-bottom:0;
+    }
+    .dasher, .store, .iphone{
+        gap:65px;
+    }
+    .merchp{
+        margin-top:0;
+    }
+    .dasher a, .store a, .iphone a{
+        line-height:50px;
+    }
+    .dasher p, .store p, .iphone p{
+        font-family: 'regular';
+        line-height: 22px;
+    }
+    .findres .imgdiv img{
+        position:relative;
+        top:60px;
+    }
+    .dashpass{
+        padding-top:80px;
+    }
+    .merchimg .im2{
+        width:124px;
+    }
+    .findres{
+        display:flex;
+        flex-direction: row-reverse;
+        gap: 80px;
+    }
+    .findres h2{
+        line-height: 42px;
+        font-size: 2.5em;
+        margin-bottom: 18px;
+    }
+    .findres h6{
+        font-size:20px;
+    }
+    .findres p{
+        font-size:16px;
+        line-height: 21px;
+        margin-bottom:28px;
+    }
+    .dashpass h2{
+        font-size: 2.5em;
+        line-height:40px;
+        margin-bottom:20px;
+    }
+    .findres .im11{
+        object-fit: cover;
+        width:100%;
+        height:500px;
+    }
+    .findres .imgdiv{
+        width:100%;
+    }
+    .dashpass .imgdiv{
+        width: 100%;
+    }
+    .dashpass p{
+        font-size:16px;
+        margin-top:0;
+        line-height:22px;
+        margin-bottom:30px;
+    }
+    .dashpass .contentdiv{
+        padding:25px;
+    }
+    .dashpass .im11{
+        object-fit: cover;
+        width:100%;
+        height:500px;
+    }
+    .findres .im1, .dashpass .im1{
+        display:none;
+    }
+    .findres .im11, .dashpass .im11{
+        display: inline;
+    }
+    .findres .contentdiv{
+        display:flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        align-items: flex-start;
+    }
+    .dashpass{
+        display:flex;
+        gap:40px;
+    }
+    .dashpass .contentdiv{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:flex-start;
+    }
+    .partner .contentdiv{
+        margin:0;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .shopgro{
+        height:600px;
+        background-position-x:51%
+    }
+    .shopgro h2{
+        font-size: 2.4em;
+    }
+    .shopgro h3{
+        font-size: 1.4em;
+    }
+    .shopnow p{
+        font-size:16px;
+        margin: 26px 0px;
+    }
+    .shopgro button{
+        font-size: 1.1em;
+    }
+    .shopgro div{
+        padding:15%;
+    }
+    .shopnow{
+        display: flex;
+        flex-direction:row-reverse;
+        gap:60px;
+    }
+    .shopnow .contentdiv{
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-end;
+        align-items: flex-start;
+        padding-bottom:60px;
+    }
+    .shopnow .im1{
+        display:none;
+    }
+    .shopnow .im11{
+        display:inline;
+        width:100%;
+        height:500px;
+        object-fit: cover;
+        position:relative;
+        top:30px;
+    }
+    .shopnow h2{
+        font-size: 41px;
+        line-height:40px;
+        margin-bottom:0;
+    }
+    .mainh2h{
+        display:flex;
+        justify-content:center;
+    }
+    .helpin .mainh2{
+        padding:60px 20px 40px;
+        font-size:32px;
+        max-width:500px;
+    }
+    /* .adv{
+        height:650px;
+    } */
+    .oppu{
+        display:flex;
+        justify-content:center;
+        padding:60px 20px 0px;
+    }
+    .oppu h2{
+        max-width:500px;
+    }
+    .unlock .oppur{
+        font-size:32px;
+        margin-bottom: 0px;
+    }
+    .foot-con h6{
+        margin:3px;
+        margin-bottom: 7px;
+    }
+    .app-play img, .play-app img{
+        width:20%;
+    }
+    .play-app{
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .know-cont{
+        padding:10px;
+        display:flex;
+        text-align: left;
+        justify-content: space-between;
+    }
+    .know-cont p{
+        line-height:25px;
+    }
+    footer h6{
+        margin:0;
+    }
+    /* SLIDE */
+    .flex-container{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .slideim1{
+        display:none;
+        width:100%;
+    }
+    .slideim2{
+        display:inline;
+        width:100%;
+        /* height:342px; */
+        object-fit:cover ;
+    }
+    .adv{
+        padding: 10px;
+    }
+    .adv h2{
+        margin-top:0;
+        margin-bottom:0;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size:40px;
+    }
+    .adv p{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .dasherr{
+        display:flex;
+        gap:50px;
+        flex-direction: row-reverse;
+    }
+    .dasherr h2{
+        padding-right:30px;
+    }
+    .dasherr .contentdiv{
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-end;
+        align-items:flex-start;
+        padding-bottom:60px;
+    }
+    .dasherr p{
+        margin:25px 0px;
+        line-height:20px;
+    }
+    .partner{
+        display:flex;
+        gap:60px;
+    }
+    .dasherr .im11{                 
+        object-fit: cover;
+        width:100%;
+        height:500px;   
+        position:relative;
+        top:55px;
+    }
+    .partner .im11{
+        object-fit: cover;
+        width:100%;
+        height:500px;
+    }
+    .partner h2, .dasherr h2{
+        font-size:40px;
+        line-height: 42px;
+        margin-bottom:0
+    }
+    .unlock p{
+        font-size:16px;
+    }
+    .bu1{
+        font-size: 16px;
+        padding: 10px 12px;
+
+    }
+    .welcome-text .login span{
+        display:none;
+    }
+    .welcome-text .login::after{
+        content: 'Sign In';
+    }
+    .toplogin .login{
+        padding:9px 11px 9px 13px;
+    }
+    .toplogin .openap{
+        padding:9px 11px 9px 13px;
+    }
+    .merch1{
+        line-height: 42px;
+    }
+}
+@media screen and (min-width:775px){
+    .welcome-text .leading{
+        font-size: 40px;
+        font-weight: bold;
+        letter-spacing:1px;
+    }
+    .welcome-text .leading br{
+        display:none;
+    }
+}
+@media screen and (min-width:960px){
+    .tabcontents{
+        grid-template-columns:repeat(5,1fr);
+    }
+}
+@media screen and (min-width:1024px){
+    .partner h2{
+        margin-right:44px;
+    }
+    .dasherr h2{
+        margin-right:25px;
+    }
+    .helpin .mainh2{
+        margin-bottom:0;
+    }
+    .medialogo{
+        top:6px;
+    }
+    .foot-con{
+        gap:70px;
+    }
+    .welcome-text .login::after{
+        content:"Sign in for saved address";
+    }
+    .welcome-text{
+        top: 26%;
+    }
+    .welcome-text .leading{
+        margin-bottom:15px;
+    }
+    .merchant{
+        padding-left: 29%;
+        padding-right: 29%;
+    }
+    .merchimg .im2{
+        width: 125px;
+    }
+    .dasher, .store, .iphone{
+        gap: 60px;
+    }
+    .merchp{
+        margin-top:0;
+    }
+    .findres .imgdiv{
+        width: 130%;
+    }
+    .dashpass .imgdiv{
+        width: 120%;
+    }
+    .dashpass .contentdiv{
+        margin-top: 90px;
+    }
+    .dashpass{
+        gap: 42px;
+    }
+    .shopgro p{
+        font-size:16px;
+    }
+    .shopgro h3{
+        font-size:20px;
+    }
+    .shopgro h2{
+        font-size:40px;
+        margin-bottom:0;
+    }
+    .shopgro div{
+        padding: 15% 23% 15%;
+    }
+    .shopnow .imgdiv{
+        width:102%;
+    }
+    .shopnow{
+        gap: 68px;
+    }
+    .dasherr .imggg{
+        width: 170%;
+    }
+    .partner .imgd{
+        width: 110%;
+    }
+    .last-flex{
+        display:flex;
+        flex-direction:row-reverse;
+        justify-content: space-between;
+    }
+    .app-play{
+        width:40%;
+    }
+    .play-app{
+        align-items:flex-end;
+    }
+    .app-play img{
+        width:40%;
+    }
+    .know-cont{
+        margin-top:30px;
+        display:flex;
+        justify-content: flex-start;
+        gap:50px;
+    }
+    .know-cont h6{
+        padding-left:5px;
+    }
+    footer{
+        padding:10px;
+    }
+    .fff{
+        display:flex;
+        align-items:center;
+        text-align:center;
+    }
+    .fff p{
+        font-size:12px;
+        padding:0;
+    }
+    .copyright p span{
+        line-height:0px;
+    }
+    .copydiv1{
+        width:10%;
+    }
+    .copydiv1 img{
+        width:70%;
+    }
+    .fd{
+        display:flex;
+    }
+    .address button{
+        padding:12px 12px 15px 12px;
+    }
+    .loglogin button{
+        padding:5px 13px 6px 10px;
+    }
+}
+@media screen and (min-width:1100px){
+    .welcome{
+        background: url(imgs/hero_desktop.png);
+        background-size:cover;
+        background-repeat:no-repeat;
+        height: 650px;
+    }
+    .searchbar{
+        width:360px;
+        justify-content: space-between;
+    }
+    .searchbar .fd{
+        margin:0;
+    }
+    .searchbar .sd{
+        margin:0;
+        border-radius:50px;
+        text-align: center;
+    }
+    .login  span{
+        display: none;
+    }
+    .login img{
+        width:20px;
+    }
+    .welcome-text .login::after{
+        content:"Sign in for saved address";
+    }
+    .address div{
+        display:flex;
+        justify-content: center;
+        /* background:white; */
+        align-items: center;
+    }
+    .address button{
+        display:flex;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:1190px){
+    
+    .addbut .searchbar span{
+        margin:0;
+    }
+    .searchbar .sd{
+        width:35px;
+        height:35px;
+        background:#EB1700;
+        border-radius: 20px;   
+    }
+    .sd svg{
+        margin:0;
+        filter: brightness(0) invert(1);
+    }
+    
+    .addbut .searchbar{
+        padding:8px 12px 8px 12px;
+    }
+
+    .searchbar span{
+        color:grey;
+        font-weight: 500;
+        margin-left:30px;
+        margin-right:30px;
+    }
+    .dasher, .store, .iphone{
+        flex-direction: column;
+        align-items:center;
+        /* padding: 20px; */
+    }
+    .merchant{
+        flex-direction: row;
+        gap: 90px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .merchimg{
+        width:240px;
+        height: 150px;
+        text-align: center;
+    }
+    .merchimg .im2{
+        width:154px;
+    }
+    .merch1{
+        text-align: center;
+    }
+    .merchp{
+        text-align: center;
+    }
+    .socialapps img{
+        width:30px;
+    }
+    .copydiv1 img{
+        width:50px;
+    }
+    .play-app img{
+        width:120px;
+    }
+    .app-play img{
+        width:120px;
+    }
+    .welcome-text .leading{
+        font-size:40px;
+        letter-spacing:1px;
+        word-spacing:2px;
+    }
+    .welcome{
+        height:650px;
+    }
+}   
+@media screen and (min-width:1300px){
+    .dropdown{
+        margin:10px 0px 10px 0px ;
+    }
+    .unlock .oppur{
+        margin-top:0px;
+        font-size:30px;
+    }
+    .copyright .fff{
+        font-size:12px;
+        width: 890px;
+    }
+    .toplogin .login{
+        padding:8px 13px 8px 13px;
+    }
+    .toplogin .openap{
+        padding:7px 11px 7px 11px;
+    }
+    .medialogo img{
+        width:14%;
+    }
+    .welcome{
+        height:650px;
+    }
+    .welcome-text .leading{
+        font-size:40px;
+        letter-spacing:1px;
+        word-spacing:2px;
+    }
+}
+@media screen and (min-width:1440px){
+    .addbut{
+        margin-top: 30px;
+    }
+    .welcome-text {
+        top: 32%;
+    }
+    .merchant{
+        padding-left: 180px;
+        padding-right: 250px;
+        padding-top:100px;
+    }
+    .dasher, .store, .iphone{
+        gap:5px;
+        padding:20px;
+    }
+    .merchp{
+        margin-top:10px;
+    }
+    .merchp a{
+        font-size:18px;
+        justify-content: center;
+    }
+    .findres{
+        padding-right:145px;
+        padding-left: 140px;
+    }
+    .findres .contentdiv{
+        width:41%;
+    }
+    .findres .imgdiv{
+        width:72%
+    }
+    .dashpass{
+        padding-left: 130px;
+        padding-right: 85px;
+    }
+    .dashpass h2{
+        margin-right: 50px;
+    }
+    .dashpass p{
+        margin-right:20px;
+    }
+    .shopgro div{
+        padding: 15% 31% 15%;
+    }
+    .shop{
+        padding: 10px 130px;
+    }
+    .shop h2{
+        margin-right:41px;
+        line-height:40px;
+    }
+    .shopnow .im11{
+        top: 44px;
+    }
+    .welcome-text .leading{
+        margin-bottom:20px;
+    }
+    .helpin .mainh2{
+        margin-bottom:0;
+    }
+    .flex-container{
+        padding:0px 125px;
+    }
+    .flex-container br{
+        display:none;
+    }
+    .flex-container h2{
+        padding-left:20px;
+        margin-bottom: 0;
+    }
+    .oppu h2{
+        max-width: 460px;
+    }
+    .unlock .oppur{
+        font-size:32px;
+    }
+    .dasherr{
+        padding:0px 144px 0 155px;  
+        gap:60px;
+    }
+    .dasherr .imggg{
+        width:149%;
+    }
+    .dasherr .im11{
+        top:40;
+    }
+    .partner{
+        padding:80px 74px 20px 125px;
+    }
+    .partner h2{
+        margin-right:105px;
+    }
+    .partner p{
+        margin-right: 55px;
+    }
+    .tabs{
+        padding: 0 158px;
+    }
+    footer{
+        padding:0 158px;
+    }
+    .foot-con{
+        gap:100px;
+    }
+    .app-play{
+        width:20%;
+    }
+    .know-cont{
+        gap:70px;
+    }
+    .app-play img{
+        width:160px;
+    }
+    .copyright .fff{
+        width:728px;
+    }
+    .dropdown{
+        margin: 10px 60px 10px 0px;
+    }
+    .socialapps img{
+        width:17.2%;   
+    }
+    .welcome-text .leading{
+        letter-spacing: 0px;
+    }
+}
+
