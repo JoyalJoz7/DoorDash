@@ -417,31 +417,31 @@ button{
 /* FONTS */
 @font-face{
     font-family:'Gilroy-ExtraBold';
-    src:url('/SITE_building/fonts/Gilroy-ExtraBold.ttf');
+    src:url(fonts/Gilroy-ExtraBold.ttf);
 }
 @font-face{
     font-family:'rotunda';
-    src:url('/SITE_building/fonts/rotunda.otf');
+    src:url(/fonts/rotunda.otf);
 }
 @font-face{
     font-family:'trialmed';
-    src:url('/SITE_building/fonts/trialmed.otf');
+    src:url(fonts/trialmed.otf);
 }
 @font-face {
     font-family:regular;
-    src: url(/SITE_building/fonts/TTNorms-Regular.otf);
+    src: url(fonts/TTNorms-Regular.otf);
 }
 @font-face {
     font-family: medium;
-    src: url(/SITE_building/fonts/TTNorms-Medium.otf);
+    src: url(fonts/TTNorms-Medium.otf);
 }
 @font-face {
     font-family: light;
-    src: url(/SITE_building/fonts/TTNorms-Light.otf);
+    src: url(fonts/TTNorms-Light.otf);
 } 
 @font-face {
     font-family: Bold;
-    src: url(/SITE_building/fonts/TTNorms-Bold.otf);
+    src: url(fonts/TTNorms-Bold.otf);
 }
 p{
     font-family:'medium';
